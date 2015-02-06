@@ -1,0 +1,38 @@
+/*! first-bootstrap-project 2015-02-06 */
+
+h2 {
+  color: #d2b152;
+}
+
+header {
+  background: #140351;
+  margin-bottom: 2em;
+}
+header .logo {
+  height: 0;
+  position: relative;
+  z-index: 10;
+}
+header .logo img {
+  padding: 23px 0;
+}
+header .main_menu > li > a {
+  line-height: 95px;
+  border-bottom: 4px solid #140351;
+  font-size: 16px;
+}
+header .main_menu > li > a:hover {
+  border-bottom: 4px solid #f8f8f8;
+}
+
+.categories {
+  margin-bottom: 2em;
+}
+.categories ul li {
+  margin-left: 88px;
+}
+.categories ul li:first-child {
+  margin: 0;
+}
+
+/*# sourceMappingURL=sass.css.map */

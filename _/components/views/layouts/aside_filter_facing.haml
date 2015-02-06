@@ -1,0 +1,9 @@
+.filter.filter-facing.row
+  %h2
+    выбор меха
+  - categories = ["Без отделки", "Кожа", "Каракульча", "Питон", "Замша", "Рысь", "Каракуль", "Трикотаж", "Норка"]
+  %ul{class: "nav nav-pills nav-stacked"}
+    - for category in categories
+      %li
+        %a{href: "#"}
+          = category

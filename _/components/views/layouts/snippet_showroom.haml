@@ -1,0 +1,33 @@
+.content.row.clearfix.showroom
+  - info_about_products = [
+    - {name: "Пальто из меха соболя", price: 28770, url: "1"}
+    - {name: "Пальто из меха соболя", price: 43670, url: "2"}
+    - {name: "Пальто из меха соболя", price: 34440, url: "3"}
+    - {name: "Пальто из меха соболя", price: 51570, url: "4"}
+    - {name: "Пальто из меха соболя", price: 33220, url: "5"}
+    - {name: "Пальто из меха соболя", price: 23000, url: "6"}
+    - {name: "Пальто из меха соболя", price: 28770, url: "7"}
+    - {name: "Пальто из меха соболя", price: 43670, url: "8"}
+    - {name: "Пальто из меха соболя", price: 34440, url: "9"}]
+
+  - for product_info in info_about_products
+  
+    %section{class: "col-xs-6 col-md-4"}
+      .thumbnail
+        %a{href: "#"}
+          %img{src: "images/#{product_info.url}.jpg", width: "245px", height: "366px"}
+        .caption.product-summary.text-center
+          %h4.goods-name
+            = product_info.name
+          %h3.price
+            = product_info.price
+          %ul{class: "nav nav-pills nav-justified"}
+            %li
+              %button(type="button" class="btn btn-link")
+                %span{class: "glyphicon glyphicon-shopping-cart"}
+                  Купить
+                
+            %li
+              %button(type="button" class="btn btn-link")
+                %span{class: "glyphicon glyphicon-search"}
+                  Инфо 

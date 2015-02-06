@@ -1,0 +1,39 @@
+@import "compass"
+//@import "compass/reset"
+
+$main_color: #080120
+$golden:     #d2b152
+
+h2
+    color: $golden
+
+
+header
+    background: lighten($main_color, 10%)
+    margin-bottom: 2em
+    
+    .logo
+        height: 0
+        position: relative
+        z-index: 10
+        
+        img
+            padding: 23px 0
+        
+    .main_menu > li > a
+        line-height: 95px
+        border-bottom: 4px solid lighten($main_color, 10%)
+        font-size: 16px
+        &:hover
+            border-bottom: 4px solid #f8f8f8
+
+
+
+.categories
+    margin-bottom: 2em
+    
+    ul li
+        margin-left: 88px
+        
+    ul li:first-child
+        margin: 0

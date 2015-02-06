@@ -1,0 +1,19 @@
+%section.filter.categories.container-fluid
+  .content.row
+    
+    - categories = [
+      - {name: "Шубы", url: "91"}, 
+      - {name: "Полушубки", url: "92"}, 
+      - {name: "Жилеты", url: "93"}, 
+      - {name: "Аксессуары", url: "94"}, 
+      - {name: "Шапки", url: "95"}, 
+      - {name: "Сумки", url: "96"}, 
+      - {name: "Руковицы", url: "97"}]
+      
+    %ul{class: "nav nav-pills"}
+      - for category in categories
+        %li.text-center
+          %img{src: "images/#{category.url}.png", alt: "Icon"}
+          -#%span.glyphicon.glyphicon-asterisk
+          %a{href: "#"}
+            = category.name

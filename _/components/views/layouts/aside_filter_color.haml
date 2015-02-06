@@ -1,0 +1,10 @@
+.filter.filter-color.row
+  %h2
+    цвет
+  
+  - colors = ["Шоколад", "Жемчуг", "Сталь", "Надежда"]
+  .radio
+    - for color in colors
+      %label{for: "#{color}", class: "radio-inline"}
+        %input{type: "radio", name: "size", id: "#{color}", class: "hide"}
+          %button(type="button" class="btn btn-default") = color

@@ -1,0 +1,59 @@
+.container
+  <!-- Logo ----------------------------->
+  %section{class: "logo text-center"}
+    %a{href: "#"}
+      %img{src: "images/af_logo.png", alt: "My Logo"}
+  <!-- Logo ----------------------------->
+  
+      
+  <!-- NavBar --------------------------->
+  
+  %nav{class: "navbar navbar-default", role: "navigation"}
+    .container-fluid
+      
+      
+      <!-- Left Menu ----------------------->
+      
+      %ul{class: "nav navbar-nav main_menu"}
+        %li
+          %a{href: "#"} 
+            %span{class: "glyphicon glyphicon-asterisk"} 
+              О фабрике
+        %li
+          %a{href: "#"}
+            %span{class: "glyphicon glyphicon-th"} 
+              Каталог
+        %li
+          %a{href: "#"} 
+            %sapn{class: "glyphicon glyphicon-credit-card"} 
+              Магазин
+              
+      <!-- Left Menu ----------------------->
+      
+      
+      
+      
+      <!-- Right Meny ---------------------->
+      
+      %ul{class: "nav navbar-nav navbar-right main_menu"}
+        %li.dropdown
+          %a(data-toggle="dropdown" class="dropdown-toggle" href="#")
+            %span{class: "glyphicon glyphicon-chevron-down"} 
+              Инфо
+              
+          <?php include "_/views/layouts/snippet_dropdown_info.php"; ?>
+          
+        %li
+          %a{href: "#"}
+            %span{class: "glyphicon glyphicon-shopping-cart"} 
+              Корзина
+        %li
+          %a{href: "#"} 
+            %sapn{class: "glyphicon glyphicon-user"} 
+              Личный кабинет
+              
+      <!-- Right Meny ---------------------->
+  
+  
+  
+  <!-- NavBar --------------------------->

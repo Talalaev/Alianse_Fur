@@ -1,0 +1,9 @@
+.filter.filter-category.row
+  %h2
+    категории
+  - categories = ["Все", "Новинки", "Хиты продаж", "Распродажа"]
+  %ul{class: "nav nav-pills nav-stacked"}
+    - for category in categories
+      %li
+        %a{href: "#"}
+          = category
