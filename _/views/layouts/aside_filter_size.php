@@ -1,8 +1,8 @@
-<div class='filter filter-size row'>
+<div class='filter row'>
   <h2>
     размер
   </h2>
-  <div class='radio'>
+  <div class='filter-size radio'>
     <label class='radio-inline' for='44'>
       <input class='hide' id='44' type='radio' name='size'>
       44

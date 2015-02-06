@@ -29,10 +29,31 @@ header .main_menu > li > a:hover {
   margin-bottom: 2em;
 }
 .categories ul li {
-  margin-left: 88px;
+  margin-left: 86px;
 }
 .categories ul li:first-child {
   margin: 0;
+}
+
+.sidebar li a {
+  display: inline-block;
+}
+
+.filter li a, label {
+  color: #171717;
+  padding: 6px 15px;
+  text-decoration: none;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  border-radius: 22px;
+  border: 1px solid white;
+}
+.filter li a:hover, label:hover {
+  border: 1px solid #d2b152;
+}
+
+.filter-size label {
+  padding: 6px 9px;
 }
 
 /*# sourceMappingURL=sass.css.map */

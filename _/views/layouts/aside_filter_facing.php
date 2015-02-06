@@ -1,8 +1,8 @@
-<div class='filter filter-facing row'>
+<div class='filter row'>
   <h2>
     выбор меха
   </h2>
-  <ul class='nav nav-pills nav-stacked'>
+  <ul class='filter-facing list-unstyled'>
     <li>
       <a href='#'>
         Без отделки

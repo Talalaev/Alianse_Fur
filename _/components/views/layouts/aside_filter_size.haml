@@ -1,9 +1,9 @@
-.filter.filter-size.row
+.filter.row
   %h2
     размер
   
   - sizes = ["44", "46", "48", "50", "52"]
-  .radio
+  .radio.filter-size
     - for size in sizes
       %label{for: "#{size}", class: "radio-inline"}
         %input{type: "radio", name: "size", id: "#{size}", class: "hide"}

@@ -1,8 +1,8 @@
-<div class='filter filter-category row'>
+<div class='filter row'>
   <h2>
     категории
   </h2>
-  <ul class='nav nav-pills nav-stacked'>
+  <ul class='filter-category list-unstyled'>
     <li>
       <a href='#'>
         Все

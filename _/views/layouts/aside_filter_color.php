@@ -1,23 +1,23 @@
-<div class='filter filter-color row'>
+<div class='filter row'>
   <h2>
     цвет
   </h2>
-  <div class='radio'>
+  <div class='filter-color radio'>
     <label class='radio-inline' for='Шоколад'>
       <input class='hide' id='Шоколад' type='radio' name='size'>
-        <button class='btn btn-default' type='button'>Шоколад</button>
+        Шоколад
     </label>
     <label class='radio-inline' for='Жемчуг'>
       <input class='hide' id='Жемчуг' type='radio' name='size'>
-        <button class='btn btn-default' type='button'>Жемчуг</button>
+        Жемчуг
     </label>
     <label class='radio-inline' for='Сталь'>
       <input class='hide' id='Сталь' type='radio' name='size'>
-        <button class='btn btn-default' type='button'>Сталь</button>
+        Сталь
     </label>
     <label class='radio-inline' for='Надежда'>
       <input class='hide' id='Надежда' type='radio' name='size'>
-        <button class='btn btn-default' type='button'>Надежда</button>
+        Надежда
     </label>
   </div>
 </div>

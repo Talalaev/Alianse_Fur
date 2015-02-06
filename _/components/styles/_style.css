@@ -2613,7 +2613,7 @@ input[type="search"] {
 .radio label,
 .checkbox label {
   min-height: 20px;
-  padding-left: 20px;
+  padding-left: none;
   margin-bottom: 0;
   font-weight: normal;
   cursor: pointer;
@@ -2633,7 +2633,7 @@ input[type="search"] {
 .radio-inline,
 .checkbox-inline {
   display: inline-block;
-  padding-left: 20px;
+  padding-left: none;
   margin-bottom: 0;
   vertical-align: middle;
   font-weight: normal;
@@ -3864,7 +3864,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: none;
 }
 .nav > li.disabled > a {
   color: #777777;
@@ -3879,7 +3879,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: none;
   border-color: #337ab7;
 }
 .nav .nav-divider {
@@ -6581,10 +6581,31 @@ header .main_menu > li > a:hover {
   margin-bottom: 2em;
 }
 .categories ul li {
-  margin-left: 88px;
+  margin-left: 86px;
 }
 .categories ul li:first-child {
   margin: 0;
+}
+
+.sidebar li a {
+  display: inline-block;
+}
+
+.filter li a, label {
+  color: #171717;
+  padding: 6px 15px;
+  text-decoration: none;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  border-radius: 22px;
+  border: 1px solid white;
+}
+.filter li a:hover, label:hover {
+  border: 1px solid #d2b152;
+}
+
+.filter-size label {
+  padding: 6px 9px;
 }
 
 /*# sourceMappingURL=sass.css.map */

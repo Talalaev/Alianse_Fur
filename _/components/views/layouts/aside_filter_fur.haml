@@ -1,8 +1,8 @@
-.filter.filter-fur.row
+.filter.row
   %h2
     выбор меха
   - categories = ["Одним списком", "Блюфрост", "Бобер", "Енот", "Каракуль", "Кролик", "Куница", "Лиса", "Мутон", "Нормка", "Ондатра", "Рысь", "Соболь", "Хорь", "Прочие меха"]
-  %ul{class: "nav nav-pills nav-stacked"}
+  %ul.filter-fur.list-unstyled
     - for category in categories
       %li
         %a{href: "#"}

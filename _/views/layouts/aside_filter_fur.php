@@ -1,8 +1,8 @@
-<div class='filter filter-fur row'>
+<div class='filter row'>
   <h2>
     выбор меха
   </h2>
-  <ul class='nav nav-pills nav-stacked'>
+  <ul class='filter-fur list-unstyled'>
     <li>
       <a href='#'>
         Одним списком

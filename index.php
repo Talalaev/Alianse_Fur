@@ -13,7 +13,7 @@
     </header>
     <div class='container'>
       <?php include "_/views/layouts/snippet_categories.php"; ?>
-      <section class='col col-lg-3 main'>
+      <section class='col col-lg-3 sidebar'>
         <?php include "_/views/layouts/aside_filter_categories.php"; ?>
         <?php include "_/views/layouts/aside_filter_fur.php"; ?>
         <?php include "_/views/layouts/aside_filter_size.php"; ?>
@@ -21,7 +21,7 @@
         <?php include "_/views/layouts/aside_filter_color.php"; ?>
         <?php include "_/views/layouts/aside_filter_facing.php"; ?>
       </section>
-      <section class='col col-lg-9 sidebar'>
+      <section class='col col-lg-9 main'>
         <?php include "_/views/layouts/snippet_showroom.php"; ?>
         <?php include "_/views/layouts/snippet_pages.php"; ?>
       </section>
