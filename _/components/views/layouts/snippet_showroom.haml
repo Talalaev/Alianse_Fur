@@ -21,13 +21,9 @@
             = product_info.name
           %h3.price
             = product_info.price
-          %ul{class: "nav nav-pills nav-justified"}
-            %li
-              %button(type="button" class="btn btn-link")
-                %span{class: "glyphicon glyphicon-shopping-cart"}
-                  Купить
-                
-            %li
-              %button(type="button" class="btn btn-link")
-                %span{class: "glyphicon glyphicon-search"}
-                  Инфо 
+          
+          %button(type="button" class="btn btn-default")
+            %span{class: "glyphicon glyphicon-search"}
+            
+          %button(type="button" class="btn btn-default")
+            %span{class: "glyphicon glyphicon-shopping-cart"}

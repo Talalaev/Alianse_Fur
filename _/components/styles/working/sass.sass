@@ -4,19 +4,33 @@
 
 $main_color: #080120
 $golden:     #d2b152
+$bg:         white
 
-h2
+h2, h3
     color: $golden
+
+
+
+h4
+    font-size: 14px
 
 
 header
     background: lighten($main_color, 10%)
     margin-bottom: 2em
     
+    nav .navbar-nav > li
+        @media(max-width: 998px)
+            float: none
+    
     .logo
         height: 0
         position: relative
         z-index: 10
+    
+        @media(max-width: 767px)
+            height: 100px
+            text-align: left
         
         img
             padding: 23px 0
@@ -26,12 +40,16 @@ header
         border-bottom: 4px solid lighten($main_color, 10%)
         font-size: 16px
         &:hover
-            border-bottom: 4px solid #f8f8f8
+            border-bottom: 4px solid darken($golden, 10%)
 
  
 
 .categories
     margin-bottom: 2em
+    min-width: 640px
+    
+    @media(max-width: 1199px)
+        width: 640px
     
     ul li
         margin-left: 86px
@@ -41,9 +59,29 @@ header
 
 
 
-.sidebar li a
-    display: inline-block
+.sidebar 
+    h2
+        margin: 0 0 10px
+    
+    .panel-heading
+        padding: 0 15px 10px
+    
+    .panel-body
+        padding: 0
+    
+    li a
+        display: inline-block
+    
+    .panel
+        box-shadow: none
+
+#filter-size, #filter-price, #filter-color
+    .panel-body
+        margin: 0 0 10px 15px
         
+#footer, #pages, .showroom
+    margin-bottom: 2em
+
         
     
 .filter li a, label
@@ -57,5 +95,106 @@ header
 
 
 
-.filter-size label
-    padding: 6px 9px
+#filter-size 
+    label
+        padding: 6px 9px
+
+
+
+.filter-color label
+    padding: 0
+    +border-radius(0)
+
+
+
+#pages ul
+    display: inline-block
+    
+    li
+        padding: 0
+    
+    li a
+        color: #171717
+        padding: 6px 10px
+        text-decoration: none
+        +border-radius(22px)
+        border: 1px solid white
+        &:hover
+            border: 1px solid $golden
+    
+    li:first-child a, li:last-child a
+        color: $golden
+        padding: 9px 10px
+        font-size: 14px
+        &:hover
+            color: darken($golden, 10%)
+
+
+
+#footer
+    border-top: 1px solid $golden
+    
+    section
+        margin: 10px 0 0
+    
+    .footer-menu 
+        margin: 10px 0 0
+        
+        li
+            padding: 0 0 8px
+        
+    a
+        color: #393939
+        &:hover
+            color: #101010
+    
+    .contacts
+        margin: 10px 0 0
+    
+    .legal-info
+        margin: 30px 0 0
+    
+    .copyright
+        font-size: 12px
+        height: 58px
+
+
+
+hr
+    width: 80%
+    margin: 0 auto
+
+
+
+.dropdown-menu > li > a
+    padding: 10px 20px
+
+
+
+.btn-default
+    padding: 8px 12px
+    +border-radius(20px)
+    border: 1px solid $bg
+    &:hover
+        border: 1px solid $golden
+        background: $bg
+    &:active, &:focus
+        border: 1px solid darken($golden, 6.5%)
+        background: $bg
+
+
+
+#mobile-categories
+    
+    .btn-mobile
+        width: 100%
+        border: 1px solid $bg
+        &:hover
+            border: 1px solid $golden
+    
+    ul li
+        margin: 0
+    
+    .dropdown-menu
+        position: static
+        width: 100%

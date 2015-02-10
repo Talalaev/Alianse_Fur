@@ -1,23 +1,30 @@
-<div class='filter row'>
-  <h2>
-    цвет
-  </h2>
-  <div class='filter-color radio'>
-    <label class='radio-inline' for='Шоколад'>
-      <input class='hide' id='Шоколад' type='radio' name='size'>
-        Шоколад
-    </label>
-    <label class='radio-inline' for='Жемчуг'>
-      <input class='hide' id='Жемчуг' type='radio' name='size'>
-        Жемчуг
-    </label>
-    <label class='radio-inline' for='Сталь'>
-      <input class='hide' id='Сталь' type='radio' name='size'>
-        Сталь
-    </label>
-    <label class='radio-inline' for='Надежда'>
-      <input class='hide' id='Надежда' type='radio' name='size'>
-        Надежда
-    </label>
+<div class='filter panel row'>
+  <div class='panel-heading'>
+    <h2>
+      <a href='#filter-color' data-toggle='collapse'>
+        цвет
+        <span class='caret'></span>
+      </a>
+    </h2>
+  </div>
+  <div class='collapse' id='filter-color'>
+    <div class='filter-color panel-body radio'>
+      <label class='radio-inline' for='коричневый'>
+        <input class='hide' id='коричневый' type='radio' name='size'>
+          <img src='images/коричневый.jpg'>
+      </label>
+      <label class='radio-inline' for='блюфрост'>
+        <input class='hide' id='блюфрост' type='radio' name='size'>
+          <img src='images/блюфрост.jpg'>
+      </label>
+      <label class='radio-inline' for='черный'>
+        <input class='hide' id='черный' type='radio' name='size'>
+          <img src='images/черный.jpg'>
+      </label>
+      <label class='radio-inline' for='жемчуг'>
+        <input class='hide' id='жемчуг' type='radio' name='size'>
+          <img src='images/жемчуг.jpg'>
+      </label>
+    </div>
   </div>
 </div>

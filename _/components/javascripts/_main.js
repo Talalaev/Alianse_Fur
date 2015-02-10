@@ -1,5 +1,5 @@
-/*! first-bootstrap-project 2015-02-06 */
-/*! first-bootstrap-project 2015-02-06 */
+/*! first-bootstrap-project 2015-02-09 */
+/*! first-bootstrap-project 2015-02-09 */
 /*!
  * jQuery JavaScript Library v1.8.3
  * http://jquery.com/
@@ -13645,6 +13645,7 @@ $.widget( "ui.slider", $.ui.mouse, {
 
 (function() {
   $(function() {
+    var width_title_dropdown_menu;
     $("#slider-range").slider({
       range: true,
       min: 18000,
@@ -13654,7 +13655,18 @@ $.widget( "ui.slider", $.ui.mouse, {
         return $("#amount").val(ui.values[0] + "р. - " + ui.values[1] + "р.");
       }
     });
-    return $("#amount").val($("#slider-range").slider("values", 0) + "р. - " + $("#slider-range").slider("values", 1) + "р.");
+    $("#amount").val($("#slider-range").slider("values", 0) + "р. - " + $("#slider-range").slider("values", 1) + "р.");
+    $("#pages .content").css({
+      width: $("#pages .content ul").outerWidth()
+    });
+    width_title_dropdown_menu = $('ul.nav li.dropdown').hover(function() {
+      return $('.dropdown-menu', this).fadeIn();
+    }, function() {
+      return $('.dropdown-menu', this).fadeOut('fast');
+    }).outerWidth();
+    return $('.dropdown-menu').css({
+      left: $('.dropdown-menu').outerWidth() / -2 + width_title_dropdown_menu / 2
+    });
   });
 
 }).call(this);

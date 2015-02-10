@@ -2,6 +2,8 @@
 
 %ul{class: "dropdown-menu", role: "menu"}
   - for iteam in info_items
-    %li
+    %li.text-center
       %a{href: "#"} 
         = iteam
+    - if iteam != info_items[info_items.length - 1]
+      %hr

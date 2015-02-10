@@ -1,9 +1,16 @@
-.filter.row
-  %h2
-    категории
+.filter.panel.row
+
+  .panel-heading
+    %h2
+      %a{href: "#filter-category", 'data-toggle': "collapse"}
+        категории
+        %span{class: "caret"}
+  
   - categories = ["Все", "Новинки", "Хиты продаж", "Распродажа"]
-  %ul.filter-category.list-unstyled
-    - for category in categories
-      %li
-        %a{href: "#"}
-          = category
+  
+  #filter-category.collapse
+    %ul.panel-body.filter-category.list-unstyled
+      - for category in categories
+        %li
+          %a{href: "#"}
+            = category

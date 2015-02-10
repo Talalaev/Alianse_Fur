@@ -1,6 +1,6 @@
 <section class='categories container-fluid filter'>
   <div class='content row'>
-    <ul class='nav nav-pills'>
+    <ul class='nav nav-pills hidden-xs'>
       <li class='text-center'>
         <img src='images/91.png' alt='Icon'>
         <a href='#'>
@@ -44,5 +44,48 @@
         </a>
       </li>
     </ul>
+    <div class='dropdown visible-xs' id='mobile-categories'>
+      <button class='btn btn-mobile dropdown-toggle' type='button' data-toggle='dropdown'>
+        Категории 
+        <span class='caret'></span>
+      </button>
+      <ul class='dropdown-menu list-unstyled'>
+        <li class='text-center'>
+          <a href='#'>
+            Шубы
+          </a>
+        </li>
+        <li class='text-center'>
+          <a href='#'>
+            Полушубки
+          </a>
+        </li>
+        <li class='text-center'>
+          <a href='#'>
+            Жилеты
+          </a>
+        </li>
+        <li class='text-center'>
+          <a href='#'>
+            Аксессуары
+          </a>
+        </li>
+        <li class='text-center'>
+          <a href='#'>
+            Шапки
+          </a>
+        </li>
+        <li class='text-center'>
+          <a href='#'>
+            Сумки
+          </a>
+        </li>
+        <li class='text-center'>
+          <a href='#'>
+            Руковицы
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>

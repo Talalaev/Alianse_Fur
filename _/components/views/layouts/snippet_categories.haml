@@ -10,10 +10,19 @@
       - {name: "Сумки", url: "96"}, 
       - {name: "Руковицы", url: "97"}]
       
-    %ul{class: "nav nav-pills"}
+    %ul{class: "nav nav-pills hidden-xs"}
       - for category in categories
         %li.text-center
           %img{src: "images/#{category.url}.png", alt: "Icon"}
-          -#%span.glyphicon.glyphicon-asterisk
           %a{href: "#"}
             = category.name
+    
+    #mobile-categories.dropdown.visible-xs
+      %button(type="button" class="btn btn-mobile dropdown-toggle" data-toggle="dropdown")
+        Категории 
+        %span{class: "caret"}
+      %ul.dropdown-menu.list-unstyled
+        - for category in categories
+          %li.text-center
+            %a{href: "#"}
+              = category.name

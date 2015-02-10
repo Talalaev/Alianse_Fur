@@ -1,10 +1,16 @@
-.filter.row
-  %h2
-    цвет
+.filter.panel.row
   
-  - colors = ["Шоколад", "Жемчуг", "Сталь", "Надежда"]
-  .radio.filter-color
-    - for color in colors
-      %label{for: "#{color}", class: "radio-inline"}
-        %input{type: "radio", name: "size", id: "#{color}", class: "hide"}
-          = color
+  .panel-heading
+    %h2
+      %a{href: "#filter-color", 'data-toggle': "collapse"}
+        цвет
+        %span{class: "caret"}
+  
+  - colors = ["коричневый", "блюфрост", "черный", "жемчуг"]
+  
+  #filter-color.collapse
+    .radio.filter-color.panel-body
+      - for color in colors
+        %label{for: "#{color}", class: "radio-inline"}
+          %input{type: "radio", name: "size", id: "#{color}", class: "hide"}
+            %img{src: "images/#{color}.jpg"}

@@ -1,10 +1,16 @@
-.filter.row
-  %h2
-    размер
+.filter.panel.row
+
+  .panel-heading
+    %h2
+      %a{href: "#filter-size", 'data-toggle': "collapse"}
+        размер
+        %span{class: "caret"}
   
   - sizes = ["44", "46", "48", "50", "52"]
-  .radio.filter-size
-    - for size in sizes
-      %label{for: "#{size}", class: "radio-inline"}
-        %input{type: "radio", name: "size", id: "#{size}", class: "hide"}
-        = size
+  
+  #filter-size.collapse
+    .radio.panel-body
+      - for size in sizes
+        %label{for: "#{size}", class: "radio-inline"}
+          %input{type: "radio", name: "size", id: "#{size}", class: "hide"}
+          = size

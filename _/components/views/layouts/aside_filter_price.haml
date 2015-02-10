@@ -1,9 +1,15 @@
-.filter.row
-  %h2
-    цена
+.filter.panel.row
+  
+  .panel-heading
+    %h2
+      %a{href: "#filter-price", 'data-toggle': "collapse"}
+        цена
+        %span{class: "caret"}
     
-  %p
-    %label(for="amount")
-    %input(id="amount" readonly="" style="border:0; color:#f6931f; font-weight:bold;" type="text")
+  #filter-price.collapse
+    .panel-body
+      %p.price-tag
+        %label(for="amount")
+        %input(id="amount" readonly="" style="border:0; margin-left: -32px;" type="text")
 
-  #slider-range.filter-price
+      #slider-range.filter-price

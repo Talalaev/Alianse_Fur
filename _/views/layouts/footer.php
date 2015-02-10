@@ -1,14 +1,14 @@
 <footer class='clearfix row'>
-  <div class='col col-lg-12'>
+  <div class='col col-lg-12' id='footer'>
     <section class='row'>
       <div class='col col-lg-3'>
         <h5>&#169 2015 Aliance Fur</h5>
-        <p>
+        <p class='copyright'>
           Все права защищены
           <br>
-          Все цены указаны в рублях с учетом НДС
+          Все цены указаны в рублях</br> с учетом НДС
         </p>
-        <p>
+        <p class='legal-info'>
           <a href='#'>
             Правовая информация
           </a>
@@ -21,14 +21,16 @@
               О фабрике 
             </a>
           </li>
-          <li></li>
-          <a href='#'>
-            Реквизиты
-          </a>
-          <li></li>
-          <a href='#'>
-            Контакты
-          </a>
+          <li>
+            <a href='#'>
+              Реквизиты
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              Контакты
+            </a>
+          </li>
         </ul>
         <p class='contacts'>
           +7 (928)813-41-19

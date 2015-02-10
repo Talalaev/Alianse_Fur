@@ -1,7 +1,17 @@
-.content.row.clearfix
+#pages.row.clearfix
   .col.col-lg-12
-    %section(class="btn-toolbar" role="toolbar")
-      .btn-group.center-block
+    .center-block.content
+      
+      %ul.list-inline.list-unstyled
+        %li
+          %a{href: "#"}
+            %span{class: "glyphicon glyphicon-chevron-left"}
+        
         - for iteam in [1..8]
-          %button(class="btn btn-default" type="button")
-            = iteam
+          %li
+            %a{href: "#"}
+              = iteam
+        
+        %li
+          %a{href: "#"}
+            %span{class: "glyphicon glyphicon-chevron-right"}

@@ -1,32 +1,58 @@
-<div class='clearfix content row'>
+<div class='clearfix row' id='pages'>
   <div class='col col-lg-12'>
-    <section class='btn-toolbar' role='toolbar'>
-      <div class='btn-group center-block'>
-        <button class='btn btn-default' type='button'>
-          1
-        </button>
-        <button class='btn btn-default' type='button'>
-          2
-        </button>
-        <button class='btn btn-default' type='button'>
-          3
-        </button>
-        <button class='btn btn-default' type='button'>
-          4
-        </button>
-        <button class='btn btn-default' type='button'>
-          5
-        </button>
-        <button class='btn btn-default' type='button'>
-          6
-        </button>
-        <button class='btn btn-default' type='button'>
-          7
-        </button>
-        <button class='btn btn-default' type='button'>
-          8
-        </button>
-      </div>
-    </section>
+    <div class='center-block content'>
+      <ul class='list-inline list-unstyled'>
+        <li>
+          <a href='#'>
+            <span class='glyphicon glyphicon-chevron-left'></span>
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            1
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            2
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            3
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            4
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            5
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            6
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            7
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            8
+          </a>
+        </li>
+        <li>
+          <a href='#'>
+            <span class='glyphicon glyphicon-chevron-right'></span>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>

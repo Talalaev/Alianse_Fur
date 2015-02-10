@@ -1,45 +1,53 @@
 <ul class='dropdown-menu' role='menu'>
-  <li>
+  <li class='text-center'>
     <a href='#'>
       Доставка
     </a>
   </li>
-  <li>
+  <hr>
+  <li class='text-center'>
     <a href='#'>
       Оплата
     </a>
   </li>
-  <li>
+  <hr>
+  <li class='text-center'>
     <a href='#'>
       Возврат товара
     </a>
   </li>
-  <li>
+  <hr>
+  <li class='text-center'>
     <a href='#'>
       Сертификаты
     </a>
   </li>
-  <li>
+  <hr>
+  <li class='text-center'>
     <a href='#'>
       Сотрудничество
     </a>
   </li>
-  <li>
+  <hr>
+  <li class='text-center'>
     <a href='#'>
       Оптовые продажи
     </a>
   </li>
-  <li>
+  <hr>
+  <li class='text-center'>
     <a href='#'>
       Поставщикам
     </a>
   </li>
-  <li>
+  <hr>
+  <li class='text-center'>
     <a href='#'>
       Реквизиты
     </a>
   </li>
-  <li>
+  <hr>
+  <li class='text-center'>
     <a href='#'>
       Контакты
     </a>

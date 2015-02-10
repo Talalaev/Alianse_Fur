@@ -11,22 +11,12 @@
         <h3 class='price'>
           28770
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
@@ -42,22 +32,12 @@
         <h3 class='price'>
           43670
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
@@ -73,22 +53,12 @@
         <h3 class='price'>
           34440
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
@@ -104,22 +74,12 @@
         <h3 class='price'>
           51570
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
@@ -135,22 +95,12 @@
         <h3 class='price'>
           33220
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
@@ -166,22 +116,12 @@
         <h3 class='price'>
           23000
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
@@ -197,22 +137,12 @@
         <h3 class='price'>
           28770
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
@@ -228,22 +158,12 @@
         <h3 class='price'>
           43670
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
@@ -259,22 +179,12 @@
         <h3 class='price'>
           34440
         </h3>
-        <ul class='nav nav-pills nav-justified'>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-shopping-cart'>
-                Купить
-              </span>
-            </button>
-          </li>
-          <li>
-            <button class='btn btn-link' type='button'>
-              <span class='glyphicon glyphicon-search'>
-                Инфо 
-              </span>
-            </button>
-          </li>
-        </ul>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-search'></span>
+        </button>
+        <button class='btn btn-default' type='button'>
+          <span class='glyphicon glyphicon-shopping-cart'></span>
+        </button>
       </div>
     </div>
   </section>
