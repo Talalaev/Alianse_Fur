@@ -1,5 +1,5 @@
-/*! first-bootstrap-project 2015-02-10 */
-/*! first-bootstrap-project 2015-02-10 */
+/*! first-bootstrap-project 2015-02-11 */
+/*! first-bootstrap-project 2015-02-11 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6545,12 +6545,12 @@ button.close {
   }
 }
 
-/*! first-bootstrap-project 2015-02-10 */
+/*! first-bootstrap-project 2015-02-11 */
 body {
   margin: 0px;
 }
 
-/*! first-bootstrap-project 2015-02-10 */
+/*! first-bootstrap-project 2015-02-11 */
 
 h2, h3 {
   color: #d2b152;
@@ -6656,8 +6656,18 @@ header .main_menu > li > a:hover {
   border-radius: 0;
 }
 
+#pages {
+  height: 30px;
+}
+#pages .content {
+  position: absolute;
+  left: 50%;
+}
+
 #pages ul {
   display: inline-block;
+  position: relative;
+  left: -50%;
 }
 #pages ul li {
   padding: 0;

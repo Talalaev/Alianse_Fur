@@ -11,9 +11,6 @@
       }
     });
     $("#amount").val($("#slider-range").slider("values", 0) + "р. - " + $("#slider-range").slider("values", 1) + "р.");
-    $("#pages .content").css({
-      width: $("#pages .content ul").outerWidth()
-    });
     width_title_dropdown_menu = $('ul.nav li.dropdown').hover(function() {
       return $('.dropdown-menu', this).fadeIn();
     }, function() {
