@@ -1,5 +1,5 @@
-/*! first-bootstrap-project 2015-02-09 */
-/*! first-bootstrap-project 2015-02-09 */
+/*! first-bootstrap-project 2015-02-11 */
+/*! first-bootstrap-project 2015-02-11 */
 /*!
  * jQuery JavaScript Library v1.8.3
  * http://jquery.com/
@@ -13656,17 +13656,23 @@ $.widget( "ui.slider", $.ui.mouse, {
       }
     });
     $("#amount").val($("#slider-range").slider("values", 0) + "р. - " + $("#slider-range").slider("values", 1) + "р.");
-    $("#pages .content").css({
-      width: $("#pages .content ul").outerWidth()
-    });
     width_title_dropdown_menu = $('ul.nav li.dropdown').hover(function() {
       return $('.dropdown-menu', this).fadeIn();
     }, function() {
       return $('.dropdown-menu', this).fadeOut('fast');
     }).outerWidth();
-    return $('.dropdown-menu').css({
-      left: $('.dropdown-menu').outerWidth() / -2 + width_title_dropdown_menu / 2
+    $(window).resize(function() {
+      if ($('body').outerWidth() < 1199) {
+        return $('.sidebar .filter .collapse').collapse('hide');
+      } else {
+        return $('.sidebar .filter .collapse').collapse('show');
+      }
     });
+    if ($('body').outerWidth() < 1199) {
+      return $('.sidebar .filter .collapse').removeClass('in');
+    } else {
+      return $('.sidebar .filter .collapse').addClass('in');
+    }
   });
 
 }).call(this);

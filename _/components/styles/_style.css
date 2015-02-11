@@ -1,5 +1,5 @@
-/*! first-bootstrap-project 2015-02-09 */
-/*! first-bootstrap-project 2015-02-09 */
+/*! first-bootstrap-project 2015-02-11 */
+/*! first-bootstrap-project 2015-02-11 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6545,12 +6545,12 @@ button.close {
   }
 }
 
-/*! first-bootstrap-project 2015-02-09 */
+/*! first-bootstrap-project 2015-02-11 */
 body {
   margin: 0px;
 }
 
-/*! first-bootstrap-project 2015-02-09 */
+/*! first-bootstrap-project 2015-02-11 */
 
 h2, h3 {
   color: #d2b152;
@@ -6563,6 +6563,11 @@ h4 {
 header {
   background: #140351;
   margin-bottom: 2em;
+}
+@media(max-width: 998px) {
+  header nav .navbar-nav > li {
+    float: none;
+  }
 }
 header .logo {
   height: 0;
@@ -6591,7 +6596,7 @@ header .main_menu > li > a:hover {
   margin-bottom: 2em;
   min-width: 640px;
 }
-@media(max-width: 998px) {
+@media(max-width: 1199px) {
   .categories {
     width: 640px;
   }
@@ -6603,11 +6608,24 @@ header .main_menu > li > a:hover {
   margin: 0;
 }
 
-.sidebar {
-  margin: -20px 0 0 0;
+.sidebar h2 {
+  margin: 0 0 10px;
+}
+.sidebar .panel-heading {
+  padding: 0 15px 10px;
+}
+.sidebar .panel-body {
+  padding: 0;
 }
 .sidebar li a {
   display: inline-block;
+}
+.sidebar .panel {
+  box-shadow: none;
+}
+
+#filter-size .panel-body, #filter-price .panel-body, #filter-color .panel-body {
+  margin: 0 0 10px 15px;
 }
 
 #footer, #pages, .showroom {
@@ -6627,7 +6645,7 @@ header .main_menu > li > a:hover {
   border: 1px solid #d2b152;
 }
 
-.filter-size label {
+#filter-size label {
   padding: 6px 9px;
 }
 
@@ -6638,8 +6656,18 @@ header .main_menu > li > a:hover {
   border-radius: 0;
 }
 
+#pages {
+  height: 30px;
+}
+#pages .content {
+  position: absolute;
+  left: 50%;
+}
+
 #pages ul {
   display: inline-block;
+  position: relative;
+  left: -50%;
 }
 #pages ul li {
   padding: 0;
@@ -6717,6 +6745,21 @@ hr {
 .btn-default:active, .btn-default:focus {
   border: 1px solid #cba538;
   background: white;
+}
+
+#mobile-categories .btn-mobile {
+  width: 100%;
+  border: 1px solid white;
+}
+#mobile-categories .btn-mobile:hover {
+  border: 1px solid #d2b152;
+}
+#mobile-categories ul li {
+  margin: 0;
+}
+#mobile-categories .dropdown-menu {
+  position: static;
+  width: 100%;
 }
 
 /*# sourceMappingURL=sass.css.map */

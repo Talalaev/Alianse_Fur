@@ -1,21 +1,23 @@
 .content.row.clearfix.showroom
   - info_about_products = [
-    - {name: "Пальто из меха соболя", price: 28770, url: "1"}
-    - {name: "Пальто из меха соболя", price: 43670, url: "2"}
-    - {name: "Пальто из меха соболя", price: 34440, url: "3"}
-    - {name: "Пальто из меха соболя", price: 51570, url: "4"}
-    - {name: "Пальто из меха соболя", price: 33220, url: "5"}
-    - {name: "Пальто из меха соболя", price: 23000, url: "6"}
-    - {name: "Пальто из меха соболя", price: 28770, url: "7"}
-    - {name: "Пальто из меха соболя", price: 43670, url: "8"}
-    - {name: "Пальто из меха соболя", price: 34440, url: "9"}]
+    - {name: "Пальто из меха соболя", price: 28770, url: "10", label: "новинка"}
+    - {name: "Пальто из меха соболя", price: 43670, url: "13", label: "новинка"}
+    - {name: "Пальто из меха соболя", price: 34440, url: "11", label: "скидка"}
+    - {name: "Пальто из меха соболя", price: 51570, url: "12", label: "новинка"}
+    - {name: "Пальто из меха соболя", price: 33220, url: "10", label: "скидка"}
+    - {name: "Пальто из меха соболя", price: 23000, url: "11", label: "новинка"}
+    - {name: "Пальто из меха соболя", price: 28770, url: "13", label: "новинка"}
+    - {name: "Пальто из меха соболя", price: 43670, url: "12", label: "хит"}
+    - {name: "Пальто из меха соболя", price: 34440, url: "10", label: "новинка"}]
 
   - for product_info in info_about_products
   
     %section{class: "col-xs-6 col-md-4"}
       .thumbnail
         %a{href: "#"}
-          %img{src: "images/#{product_info.url}.jpg", width: "245px", height: "366px"}
+          %img{src: "images/#{product_info.url}.png", width: "245px", height: "366px"}
+          %span.iteam_label
+            = product_info.label
         .caption.product-summary.text-center
           %h4.goods-name
             = product_info.name

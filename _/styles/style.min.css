@@ -6608,6 +6608,12 @@ header .main_menu > li > a:hover {
   margin: 0;
 }
 
+.thumbnail .iteam_label {
+  position: absolute;
+  top: 30px;
+  font-size: 16px;
+}
+
 .sidebar h2 {
   margin: 0 0 10px;
 }

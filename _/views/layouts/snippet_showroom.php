@@ -2,7 +2,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/1.jpg' width='245px' height='366px'>
+        <img src='images/10.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          новинка
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
@@ -23,7 +26,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/2.jpg' width='245px' height='366px'>
+        <img src='images/13.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          новинка
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
@@ -44,7 +50,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/3.jpg' width='245px' height='366px'>
+        <img src='images/11.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          скидка
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
@@ -65,7 +74,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/4.jpg' width='245px' height='366px'>
+        <img src='images/12.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          новинка
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
@@ -86,7 +98,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/5.jpg' width='245px' height='366px'>
+        <img src='images/10.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          скидка
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
@@ -107,7 +122,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/6.jpg' width='245px' height='366px'>
+        <img src='images/11.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          новинка
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
@@ -128,7 +146,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/7.jpg' width='245px' height='366px'>
+        <img src='images/13.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          новинка
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
@@ -149,7 +170,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/8.jpg' width='245px' height='366px'>
+        <img src='images/12.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          хит
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
@@ -170,7 +194,10 @@
   <section class='col-xs-6 col-md-4'>
     <div class='thumbnail'>
       <a href='#'>
-        <img src='images/9.jpg' width='245px' height='366px'>
+        <img src='images/10.png' width='245px' height='366px'>
+        <span class='iteam_label'>
+          новинка
+        </span>
       </a>
       <div class='caption product-summary text-center'>
         <h4 class='goods-name'>
